@@ -1,5 +1,10 @@
-# sql-injection-and-prevention
+# SQL Injection and Prevention
+<p align="center">
+<a href="https://github.com/AswinBarath/sql-injection-and-prevention">
+<img src="SQL-Injection.png" width="60%" alt="sql-injection-and-prevention" />
 Demonstrates SQL injection attacks using malicious SQL queries and SQL prevention techniques.
+</a>
+</p>
 
 ---
 
@@ -12,11 +17,15 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 
 ---
 
+**[⬆ Back to Top](#Table-of-content)**
+
 ## Installation
-To get it working, you need to install all the dependencies.
+To get the project working, you need to install all the dependencies.
 1. [XAMPP Control Panel](https://www.apachefriends.org/download.html)
 
 ---
+
+**[⬆ Back to Top](#Table-of-content)**
 
 ## Technologies
 
@@ -35,3 +44,5 @@ To get it working, you need to install all the dependencies.
     - [PHP](https://www.php.net/)
 
 ---
+
+**[⬆ Back to Top](#Table-of-content)**
