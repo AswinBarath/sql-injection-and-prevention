@@ -6,6 +6,10 @@
 </a>
 </p>
 
+
+![GitHub top language](https://img.shields.io/github/languages/top/zero-to-mastery/drum-root?color=gree&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/zero-to-mastery/drum-root)
+
 Demonstrates SQL injection attacks using malicious SQL queries and SQL prevention techniques.
 
 [Deployed project link](https://sql-injection-and-prevention.herokuapp.com/)
