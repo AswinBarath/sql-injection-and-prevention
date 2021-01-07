@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> SQL Injection and Prevention </title>
 		<link rel="icon" type="image/png"
 			href="https://www.google.com/s2/favicons?domain=https://www.apachefriends.org/index.html">
@@ -21,27 +23,24 @@
 				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href="#">Code</a>
+				<a class="nav-link" href="docs.html">Docs</a>
 				</li>
-				<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Guide
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">About Project</a>
-					<a class="dropdown-item" href="#">Tutorials</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">GitHub</a>
-				</div>
+				<li class="nav-item">
+				<a class="nav-link" href="code.html">Code</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="database.html">Database</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/AswinBarath/sql-injection-and-prevention" target="__blank">
+						GitHub
+					</a>
 				</li>
 			</ul>
 			</div>
 			</nav>
 		</div>
 		<h1> SQL Injection and Prevention </h1>
-		<p>
-			SQL injection is an attack used to take over database servers by dynamically poisoning SQL queries.
-		</p>
 		<div class="card-container">
 			<div class="card mb-3" style="max-width: 540px;">
 				<div class="row no-gutters">
@@ -67,33 +66,33 @@
 			<div class="card-deck">
 				<div class="card">
 							<div class="card-body">
-								<h5 class="card-title">Example 1</h5>
+								<h5 class="card-title">Inject using Example 1</h5>
 								<p class="card-text">
-									<form action="login.php" method="get">
+									<form>
 										<label for="fname">Username:</label>
-										<input type="text" id="uname" name="uname" value="' or 1=1-- "><br>
+										<input type="text" id="uname1" name="uname" value="' or 1=1-- "><br>
 										<label for="lname">Password:</label>
-										<input type="password" id="pass" name="pass" placeholder="leave blank"><br>
-										<input type="submit" id="btn" value="Use Example 1">
+										<input type="password" id="pass1" name="pass" placeholder="leave blank"><br>
+										<input type="submit" id="btn" value="Press 2 times"  onclick="myFunction1()">
 									</form>
 								</p>
 							</div>
 				</div>
 				<div class="card">
 							<div class="card-body">
-								<h5 class="card-title">Example 2</h5>
+								<h5 class="card-title">Inject using Example 2</h5>
 								<p class="card-text">
-									<form action="login.php" method="get">
+									<form>
 										<label for="fname">Username:</label>
-										<input type="text" id="uname" name="uname" value="admin' or '1'='1"><br>
+										<input type="text" id="uname2" name="uname" value="admin' or '1'='1"><br>
 										<label for="lname">Password:</label>
-										<input type="password" id="pass" name="pass" placeholder="leave blank"><br>
-										<input type="submit" id="btn" value="Use Example 2">
+										<input type="password" id="pass2" name="pass" placeholder="leave blank"><br>
+										<input type="submit" id="btn" value="Press 2 times"  onclick="myFunction2()">
 									</form>
 								</p>
 							</div>
 				</div>
 			</div>
-
+		<script src="script.js"></script>
 	</body>
 </html>

@@ -1,0 +1,19 @@
+h1,h2, p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 800px;
+    margin: 30px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
