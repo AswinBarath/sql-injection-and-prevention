@@ -1,11 +1,14 @@
 # SQL Injection and Prevention
+
 <p align="center">
-<a href="https://github.com/AswinBarath/sql-injection-and-prevention">
+<a href="https://sql-injection-and-prevention.herokuapp.com/">
 <img src="SQL-Injection.png" width="60%" alt="sql-injection-and-prevention" />
 </a>
 </p>
 
 Demonstrates SQL injection attacks using malicious SQL queries and SQL prevention techniques.
+
+[Deployed project link](https://sql-injection-and-prevention.herokuapp.com/)
 
 ---
 
