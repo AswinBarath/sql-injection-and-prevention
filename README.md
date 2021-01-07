@@ -7,8 +7,8 @@
 </p>
 
 
-![GitHub top language](https://img.shields.io/github/languages/top/zero-to-mastery/drum-root?color=gree&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/zero-to-mastery/drum-root)
+![GitHub top language](https://img.shields.io/github/languages/top/AswinBarath/sql-injection-and-prevention?color=gree&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AswinBarath/sql-injection-and-prevention)
 
 Demonstrates SQL injection attacks using malicious SQL queries and SQL prevention techniques.
 
