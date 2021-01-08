@@ -24,7 +24,7 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 ---
 
 ## Installation
-To get the project working, you need to install all the following dependencies.
+To get the project working, you need to install the following dependencies.
 1. [XAMPP Control Panel](https://www.apachefriends.org/download.html)
 2. [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
