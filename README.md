@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://sql-injection-and-prevention.herokuapp.com/">
-<img src="SQL-Injection.png" width="60%" alt="sql-injection-and-prevention" />
+<img src="./content/assets/readme/SQL-Injection.png" width="60%" alt="sql-injection-and-prevention" />
 </a>
 </p>
 
