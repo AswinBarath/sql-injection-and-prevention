@@ -6,13 +6,11 @@
 </a>
 </p>
 
-
-![GitHub top language](https://img.shields.io/github/languages/top/AswinBarath/sql-injection-and-prevention?color=gree&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/AswinBarath/sql-injection-and-prevention)
-
 Demonstrates SQL injection attacks using malicious SQL queries and SQL prevention techniques.
 
 [Deployed project link](https://sql-injection-and-prevention.herokuapp.com/)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/AswinBarath/sql-injection-and-prevention)
 
 ---
 
@@ -26,8 +24,9 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 ---
 
 ## Installation
-To get the project working, you need to install all the dependencies.
+To get the project working, you need to install all the following dependencies.
 1. [XAMPP Control Panel](https://www.apachefriends.org/download.html)
+2. [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 ---
 
