@@ -29,12 +29,21 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 
 ### SQL Injection Demo
 
+- In this demo, the Database Schema is displayed first
+- Later, 4 sets of Login credentials are tested:
+	1. Correct credentials present in the user database
+	2. Wrong credentials to show the failure message
+	3. First SQL Injection example is demonstrated
+	4. Later the Second SQL Injection example is demonstrated
+
+
 <p>
 <img src="./public/assets/SQL Injection Login.gif" alt="SQL Injection" />
 </p>
 
 ### Navbar Demo
 
+- In this demo, the Navigation bar is demonstrated
 <p>
 <img src="./public/assets/SQL Injection Navbar.gif" alt="SQL Injection" />
 </p>
