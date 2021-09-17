@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://sql-injection-and-prevention.herokuapp.com/">
-<img src="./content/assets/readme/SQL-Injection.png" width="60%" alt="sql-injection-and-prevention" />
+<img src="./public/assets/SQL Injection.png" width="60%" alt="sql-injection-and-prevention" />
 </a>
 </p>
 
@@ -10,27 +10,60 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 
 [Deployed project link](https://sql-injection-and-prevention.herokuapp.com/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/AswinBarath/sql-injection-and-prevention)
-
 ---
 
 ## Table of content
 
-- [Installation](#Installation)
+- [Demo](#Demo)
+  - [Login Demo](#Login-Demo)
+  - [Navbar Demo](#Navbar-Demo)
+- [What's unique in this Project](#whats-unique-in-this-project)
+- [What's SQL Injection](#whats-sql-injection)
 - [Technologies](#Technologies)
-  - [Front End](#Front-End)
-  - [Back End](#Back-End)
+- [Installation](#Installation)
+- [Contributors](#Contributors)
 
 ---
 
-## Installation
-To get the project working, you need to install the following dependencies.
-1. [XAMPP Control Panel](https://www.apachefriends.org/download.html)
-2. [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+## Demo
+
+### Login Demo
+
+<p>
+<img src="./public/assets/SQL Injection Login.png" alt="SQL Injection" />
+</p>
+
+### Navbar Demo
+
+<p>
+<img src="./public/assets/SQL Injection Navbar.png" alt="SQL Injection" />
+</p>
 
 ---
 
-**[⬆ Back to Top](#Table-of-content)**
+## What's unique in this Project
+
+- The project is deployed as Microservices of Front-end, Server, and Database using Heroku Cloud Platfrom
+- Demostrates SQL Injection in an elegant way using **LAMP** stack
+- Follows best practices and code readability 
+
+---
+
+## What's SQL Injection
+
+- SQL injection is an attack used to take over database servers by dynamically poisoning SQL queries.
+- In this attack, a special SQL query is passed as user input to the login page.
+- Later, when the backend code compiles the input along with the SQL query.
+- The code then gets hijacked because these queries will change the meaning of the backend code.
+- The SQL injection queries used for this demonstration project are:
+' or 1=1--
+- This query will change all the SQL statement always true because of the or keyword.
+- And the rest of the SQL statement after '--' will be commmented.
+admin' or '1'='1
+- This query will change all the SQL statement will also always be true.
+Because of the or keyword, and the two expression producting true values.
+
+---
 
 ## Technologies
 
@@ -47,6 +80,19 @@ To get the project working, you need to install the following dependencies.
     - [Apache HTTP Server](https://httpd.apache.org/)
     - [MariaDB database](https://mariadb.com/)
     - [PHP](https://www.php.net/)
+
+---
+
+## Installation
+To get the project working, you need to install the following dependencies.
+1. [XAMPP Control Panel](https://www.apachefriends.org/download.html)
+2. [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
+---
+
+## Contributors
+
+- T Aswin Barath <https://github.com/AswinBarath>
 
 ---
 
