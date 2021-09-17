@@ -15,7 +15,7 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 ## Table of content
 
 - [Demo](#Demo)
-  - [Login Demo](#Login-Demo)
+  - [SQL Injection Demo](#SQL-Injection-Demo)
   - [Navbar Demo](#Navbar-Demo)
 - [What's unique in this Project](#whats-unique-in-this-project)
 - [What's SQL Injection](#whats-sql-injection)
@@ -27,16 +27,16 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 
 ## Demo
 
-### Login Demo
+### SQL Injection Demo
 
 <p>
-<img src="./public/assets/SQL Injection Login.png" alt="SQL Injection" />
+<img src="./public/assets/SQL Injection Login.gif" alt="SQL Injection" />
 </p>
 
 ### Navbar Demo
 
 <p>
-<img src="./public/assets/SQL Injection Navbar.png" alt="SQL Injection" />
+<img src="./public/assets/SQL Injection Navbar.gif" alt="SQL Injection" />
 </p>
 
 ---
