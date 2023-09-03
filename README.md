@@ -61,16 +61,18 @@ Demonstrates SQL injection attacks using malicious SQL queries and SQL preventio
 ## What's SQL Injection
 
 - SQL injection is an attack used to take over database servers by dynamically poisoning SQL queries.
+	- SQL injection is a cybersecurity vulnerability where attackers input malicious SQL (Structured Query Language) code into a web application's input fields.
+	- If the application doesn't properly validate or sanitize the input, it can execute unintended database commands.
+	- This can lead to unauthorized access, data theft, or manipulation of the database.
+- To prevent SQL injection, developers should use parameterized queries or prepared statements and validate user inputs.
+	- Security measures like input validation and output encoding are crucial to mitigate this risk.
 - In this attack, a special SQL query is passed as user input to the login page.
-- Later, when the backend code compiles the input along with the SQL query.
-- The code then gets hijacked because these queries will change the meaning of the backend code.
-- The SQL injection queries used for this demonstration project are:
-' or 1=1--
-- This query will change all the SQL statement always true because of the or keyword.
-- And the rest of the SQL statement after '--' will be commmented.
-admin' or '1'='1
-- This query will change all the SQL statement will also always be true.
-Because of the or keyword, and the two expression producting true values.
+	- Later, when the backend code compiles the input along with the SQL query.
+	- The code then gets hijacked because these queries will change the meaning of the backend code.
+- The SQL injection queries used for this demonstration project are: `' or 1=1--`
+	- This query will change all the SQL statements to always be true because of the or keyword.
+	- And the rest of the SQL statement after `'--'` will be commented. `admin' or '1'='1`
+- This query will change all the SQL statements and will also always be true. Because of the `or` keyword, the two expressions produce true values.
 
 ---
 
